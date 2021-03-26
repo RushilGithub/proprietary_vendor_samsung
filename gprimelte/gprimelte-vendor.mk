@@ -27,21 +27,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimelte/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
     vendor/samsung/gprimelte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/gprimelte/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
-    vendor/samsung/gprimelte/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gprimelte/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
-    vendor/samsung/gprimelte/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
-    vendor/samsung/gprimelte/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
-    vendor/samsung/gprimelte/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/gprimelte/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
-    vendor/samsung/gprimelte/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
-    vendor/samsung/gprimelte/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/gprimelte/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
-    vendor/samsung/gprimelte/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
-    vendor/samsung/gprimelte/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gprimelte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
-    vendor/samsung/gprimelte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
-    vendor/samsung/gprimelte/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/gprimelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/hw/nfc_nci.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.msm8916.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libaec_algo_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaec_algo_front.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libaec_algo_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaec_algo_rear.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libaf_algo_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaf_algo_rear.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libalgobsx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalgobsx.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libawb_algo_front_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb_algo_front_al.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb_algo_rear_al.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac2_lib.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/gprimelte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/gprimelte/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/gprimelte/proprietary/vendor/lib/libactuator_dw9804_e5_camcorder.so:system/vendor/lib/libactuator_dw9804_e5_camcorder.so \
